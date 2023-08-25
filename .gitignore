@@ -1,15 +1,36 @@
-# Binaries for programs and plugins
+# Bazel output directories
+bazel-*/
+
+# Bazel workspace state files
+.bazelrc.local
+.bazelversion
+.bazel_workspace
+
+# Bazel build cache
+.cache/
+
+# Generated files and directories
+bazel-bin/
+bazel-out/
+bazel-testlogs/
+
+# Bazel log files
+bazel-*.log
+
+# Go specific
+go.sum
 *.exe
-*.exe~
-*.dll
-*.so
-*.dylib
 
-# Test binary, built with `go test -c`
-*.test
+# Temporary files and editor backups
+*~
+*.swp
+*.swo
 
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+# IDE/editor workspace files (examples)
+.vscode/
+.idea/
+.emacs.d/
 
-# Dependency directories (remove the comment below to include it)
-# vendor/
+# User-specific configuration
+.bazelrc
+.bazelignore
