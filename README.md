@@ -1,0 +1,2 @@
+# go-bazel
+Learning bazel
