@@ -1,5 +1,8 @@
 # Bazel output directories
-bazel-*/
+bazel-bin/
+bazel-go-bazel/
+bazel-out/
+bazel-testlogs/
 
 # Bazel workspace state files
 .bazelrc.local
